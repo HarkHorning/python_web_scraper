@@ -12,4 +12,8 @@ mark_up = 'lxml' or 'html'
 
 le_soupe = BeautifulSoup(ingredients.text, mark_up)
 
-print(le_soupe.find(''))
+print(
+    le_soupe.find(
+        'h1'
+    ).text.strip()
+)
