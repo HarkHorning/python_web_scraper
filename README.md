@@ -1,6 +1,8 @@
 # python_web_scraper
 
-Practice sites:
+## Exploring Different Tools
+
+### Practice sites:
 
 https://www.scrapethissite.com/pages/simple/
 
