@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-target = 'https://www.scrapethissite.com/pages/simple/'
+target = ''
 
 try:
     ingredients = requests.get(target)
@@ -12,6 +12,4 @@ mark_up = 'lxml' or 'html'
 
 le_soupe = BeautifulSoup(ingredients.text, mark_up)
 
-print(le_soupe.find(
-    'h1'
-)).text
+print(le_soupe.find(''))
