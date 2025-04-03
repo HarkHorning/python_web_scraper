@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-target = ''
+target = '' # Add your link here
 
 try:
     ingredients = requests.get(target)
